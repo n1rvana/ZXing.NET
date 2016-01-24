@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <title>WindowsStoreJavaScriptDemo</title>
+
+    <!-- WinJS-Verweise -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- WindowsStoreJavaScriptDemo references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+</head>
+<body>
+    <p>Decoding test for static images</p>
+    <canvas id="canvasDecode" height="200" width="200"></canvas>
+    <h3 id="result"></h3>
+    <p>Put some content here and leave the text box</p>
+    <input id="input" class="win-textarea" onchange="generate_barcode()">
+    <h3 id="content"></h3>
+    <canvas id="canvasEncode" height="200" width="200"></canvas>
+</body>
+</html>
